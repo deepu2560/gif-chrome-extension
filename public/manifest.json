@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Gif Extension",
+  "version": "1.0",
+  "description": "Search and share GIFs with Giphy API",
+  "icons": {
+    "16": "favicon-16x16.png",
+    "32": "favicon-32x32.png"
+  },
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "favicon-16x16.png",
+      "32": "favicon-32x32.png"
+    }
+  }
+}
